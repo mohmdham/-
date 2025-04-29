@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شكراً ست تهاني</title>
+    <style>
+        :root {
+            --primary-color: #5f3dc4;
+            --secondary-color: #4c2fa5;
+            --text-color: #343a40;
+            --light-bg: #f8f9fa;
+            --white: #ffffff;
+            --quote-bg: #f3f0ff;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, var(--light-bg) 0%, #e9ecef 100%);
+            color: var(--text-color);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: var(--white);
+            padding: clamp(40px, 8vw, 80px) 20px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+            font-weight: bold;
+            line-height: 1.3;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 850px;
+            margin: clamp(-40px, -6vw, -60px) auto 50px;
+            padding: clamp(25px, 5vw, 50px);
+            background-color: var(--white);
+            border-radius: 20px;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+            border: 1px solid #e0d0ff;
+        }
+        
+        .message {
+            font-size: clamp(1.1rem, 3vw, 1.6rem);
+            text-align: justify;
+            margin-bottom: 30px;
+        }
+        
+        .signature {
+            margin-top: clamp(40px, 6vw, 60px);
+            font-style: italic;
+            font-weight: bold;
+            color: var(--primary-color);
+            font-size: clamp(1.3rem, 3vw, 1.8rem);
+            border-top: 2px dashed #b197fc;
+            padding-top: 20px;
+        }
+        
+        .decoration {
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
+            margin: 30px 0;
+            color: var(--primary-color);
+            text-align: center;
+        }
+        
+        .highlight {
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+        
+        .quote-box {
+            background-color: var(--quote-bg);
+            border-right: 4px solid var(--primary-color);
+            padding: clamp(15px, 3vw, 25px);
+            margin: clamp(25px, 4vw, 40px) 0;
+            border-radius: 0 15px 15px 0;
+        }
+        
+        .quote {
+            font-style: italic;
+            font-size: clamp(1.1rem, 3vw, 1.4rem);
+            color: var(--primary-color);
+            text-align: center;
+            line-height: 1.7;
+        }
+        
+        /* تحسينات للهواتف الصغيرة */
+        @media (max-width: 480px) {
+            .container {
+                width: 95%;
+                padding: 20px;
+            }
+            
+            .message, .quote {
+                text-align: right;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>شكراً ست تهاني</h1>
+    </div>
+    
+    <div class="container">
+        <div class="decoration">❤️ ✨</div>
+        
+        <div class="message">
+            <p>ست <span class="highlight">تهاني</span> العزيزة،</p>
+            
+            <p>بكل الحب والتقدير، نتوجه إليكِ بأصدق كلمات <span class="highlight">الشكر</span> و<span class="highlight">الامتنان</span> على كل ما قدمتيه لنا من عطاء. لقد كنتِ نموذجاً رائعاً للمربية الفاضلة التي تترك أثراً طيباً في نفوس طلابها.</p>
+            
+            <div class="quote-box">
+                <div class="quote">
+                    "ست تهاني.. شكراً لأنكِ جعلتِ من التعلم رحلة ممتعة<br>ومن الحصص الدراسية ذكريات لا تنسى"
+                </div>
+            </div>
+            
+            <p>نشكركِ على <span class="highlight">حكمتكِ</span> و<span class="highlight">صبركِ</span> و<span class="highlight">تفهمكِ</span>، وعلى كل لحظة قضيتها في تعليمنا وتوجيهنا. لقد كنتِ أكثر من معلمة، كنتِ مرشدةً وأماً ثانيةً لنا جميعاً.</p>
+            
+            <p>في هذه اللحظات، نعدكِ بأننا سنحمل معنا كل ما علمتينا إياه، ليس فقط من علم ومعرفة، بل من قيم وأخلاق ستظل تنير طريقنا في الحياة.</p>
+        </div>
+        
+        <div class="decoration">✨ ❤️</div>
+        
+        <div class="signature">
+            مع خالص التقدير والاحترام،<br>
+            طالبكِ محمد هشام
+        </div>
+    </div>
+</body>
+</html>
